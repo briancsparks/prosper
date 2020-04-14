@@ -4,11 +4,11 @@
   url = "docs"
   weight = 1
 
-# [[main]]
-#   identifier = "updates"
-#   name = "Updates"
-#   url = "updates"
-#   weight = 2
+[[main]]
+  identifier = "CLI"
+  name = "CLI"
+  url = "cli"
+  weight = 2
 
 # [[main]]
 #   identifier = "blog"

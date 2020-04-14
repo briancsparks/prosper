@@ -3,7 +3,7 @@ title = "Prosper"
 theme = "zdoc"
 
 # TODO This is an attempt to get things working
-disableKinds = ["taxonomy", "taxonomyTerm"]
+# disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
 defaultContentLanguage = "en"
