@@ -2,6 +2,7 @@
 title: "Jenkins + Dockerfile"
 date: 2020-04-11T14:18:08-07:00
 draft: false
+weight: 2
 ---
 
 ### Jenkins in Docker

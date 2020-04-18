@@ -2,6 +2,7 @@
 title: "Nodejs + Dockerfile"
 date: 2020-04-11T14:19:35-07:00
 draft: false
+weight: 2
 ---
 
 ### Canonical Node Dockerfile Pattern

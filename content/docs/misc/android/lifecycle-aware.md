@@ -17,6 +17,10 @@ and `ViewModel`.
   * [Lifecycle](https://developer.android.com/reference/androidx/lifecycle/Lifecycle)
   * [Lifecycle.State](https://developer.android.com/reference/androidx/lifecycle/Lifecycle.State)
   * [ViewModel](https://developer.android.com/reference/androidx/lifecycle/ViewModel)
+* Other
+  * [Sunflower Article on Medium](https://medium.com/androiddevelopers/introducing-android-sunflower-e421b43fe0c2)
+  * The sunflower git repo
+    * `git clone https://github.com/googlesamples/android-sunflower`
 
 ## Example
 
