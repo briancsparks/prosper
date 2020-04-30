@@ -19,6 +19,8 @@ Drop the `-d` to keep the log running indefinately.
 adb logcat -v threadtime -v epoch -v uid -v usec -b all
 ```
 
+Also, can set `ADB_TRACE` to subsystems, like `all, adb, sockets, packets, rwx, usb, sync, sysdeps, transport, jdwp`. The docs say that using `all` is best.
+
 ### Get Android's IP address
 
 Get link-layer info:
