@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = false
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "Copyright &copy;{year} BCS, All Rights Reserved"
 timeout = 10000
 enableEmoji = true
 paginate = 13

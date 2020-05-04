@@ -1,18 +1,24 @@
 [[main]]
-  identifier = "docs"
-  name = "Docs"
-  url = "docs"
+  identifier = "ansible"
+  name = "Ansible"
+  url = "ansible"
   weight = 1
 
 [[main]]
-  identifier = "CLI"
-  name = "CLI"
-  url = "cli"
+  identifier = "docker"
+  name = "Docker"
+  url = "docker"
   weight = 2
 
-# [[main]]
-#   identifier = "blog"
-#   name = "Blog"
-#   url = "blog"
-#   weight = 3
+[[main]]
+  identifier = "jenkins"
+  name = "Jenkins"
+  url = "jenkins"
+  weight = 3
+
+[[main]]
+  identifier = "misc"
+  name = "Misc"
+  url = "misc"
+  weight = 4
 

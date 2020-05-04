@@ -1,5 +1,5 @@
 ---
-title: "Ansible Plus Docker"
+title: "Get Docker Images"
 date: 2020-04-28T20:33:21-07:00
 draft: false
 ---
