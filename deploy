@@ -7,7 +7,7 @@ die() { errcho "$@"; exit 1; }
 
 DIRECTORY="$1"
 DIRECTORY="trial-cdr0-net"
-[[ -d $DIRECTORY ]] || die "Must provide directory to be served"
+[[ -d /usr/share/nginx/${DIRECTORY}/html/ ]] || die "Must provide directory to be served"
 
 echo "---------- Get latest ----------------------------------------"
 cd $HOME/dev/prosper
