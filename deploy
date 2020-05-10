@@ -1,0 +1,27 @@
+#!/bin/bash -e
+
+script_dir="$( cd "$(dirname "$( readlink -f "${BASH_SOURCE[0]}" )" )" && pwd )"
+
+errcho() { echo "$@" 1>&2; }
+die() { errcho "$@"; exit 1; }
+
+DIRECTORY="$1"
+DIRECTORY="trial-cdr0-net"
+[[ -d $DIRECTORY ]] || die "Must provide directory to be served"
+
+echo "---------- Get latest ----------------------------------------"
+cd $HOME/dev/prosper
+git pull --ff-only
+
+echo "---------- Generate ----------------------------------------"
+rm -rf public/
+hugo -D
+
+echo "---------- Publish ----------------------------------------"
+sudo rm -rf /usr/share/nginx/${DIRECTORY}/html/
+sudo mkdir -p /usr/share/nginx/${DIRECTORY}/html/
+sudo cp -R public/* /usr/share/nginx/${DIRECTORY}/html/
+
+echo "---------- Reload----------------------------------------"
+sudo nginx -t && sudo nginx -s reload
+
