@@ -35,7 +35,6 @@ git clone git@github.com:briancsparks/prosper-example-livedata
 * And the associated git repository:
   * `git clone git@github.com:googlecodelabs/android-lifecycles.git`
 
-
 ## LifecycleObserver
 
 Make any component "Lifecycle Aware".
